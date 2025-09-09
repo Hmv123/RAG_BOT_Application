@@ -8,6 +8,7 @@ __pycache__/
 src/.env
 
 # Logs
+/logs
 *.log
 
 # Virtual envs

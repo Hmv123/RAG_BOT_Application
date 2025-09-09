@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment files (do NOT commit .env)
+.env
+.env.*
+src/.env
+
+# Logs
+logs/
+*.log
+
+# Virtual envs
+.venv/
+venv/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db

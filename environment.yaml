@@ -1,0 +1,17 @@
+name: rag-app-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - azure-core>=1.30.0
+      - azure-search-documents>=11.5.0
+      - python-dotenv>=1.0.0
+      - llama-index-core>=0.10.0
+      - llama-index-readers-file>=0.1.0
+      - llama-index-vector-stores-azureaisearch>=0.1.0
+      - llama-index-embeddings-azure-openai>=0.1.0
+      - openai>=1.35.0
+      - streamlit>=1.33.0
